@@ -1,4 +1,4 @@
-##Trabalho-IA
+# Trabalho-IA
 
 Trabalho da disciplina de Inteligência Artificial da Universidade Federal de Mato Grosso do Sul
 
@@ -8,25 +8,25 @@ Além disso, o processo de treinamento foi realizado utilizando técnicas de div
 
 Funcionalidades do Projeto ->
 
-Classificação de Texto:
+## Classificação de Texto:
 
 - Permite classificar textos como "Poema" ou "Crítica".
 
-Chatbot no Telegram:
+## Chatbot no Telegram:
 
 - Interface acessível para interação com o modelo treinado.
 - Usuários podem enviar textos diretamente pelo Telegram para obter a classificação.
 
-Treinamento do Modelo:
+## Treinamento do Modelo:
 
 - Modelo treinado com um dataset específico dividido em 70% para treino, 15% para validação e 15% para teste.
 - Utiliza a arquitetura pré-treinada DistilBERT adaptada para a tarefa de classificação binária.
-- 
-Resultados:
+
+## Resultados:
 
 - Alta precisão no conjunto de teste, com métricas de avaliação que comprovam a eficiência do modelo.
 
-Requisitos:
+## Requisitos:
 - Python 3.10 ou superior
 - Bibliotecas: torch, transformers, sklearn, telegram
 
